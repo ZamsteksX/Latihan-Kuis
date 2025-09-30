@@ -1,0 +1,53 @@
+
+.navbar-custom {
+      background-color: #222;   /* warna hitam */
+      display: flex;
+    }
+
+.navbar-custom .brand {
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+.navbar-custom .menu {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-size: 16px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      justify-items: space-between;
+    }
+
+.navbar-custom a{
+        color: white;  /* warna teks putih */
+        text-decoration: none;
+        margin-right: 15px;
+    }
+
+.navbar-custom a:hover {
+      color: #514848; /* efek hover */
+    }
+
+.container {
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    padding: 10px;
+}
+
+    #catImage {
+      transition: transform 0.5s ease;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+    #catImage:hover {
+      transform: scale(1.05);
+    }
